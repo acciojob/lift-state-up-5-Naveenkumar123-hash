@@ -6,13 +6,13 @@ const Button=({handlingfn})=>{
         handlingfn();
     }
     return(
-        <div>
+        <form>
              <label for="name">UserName</label>
              <input type="text"name="name"></input>
              <label for="password">password</label>
              <input type="password"name="password"></input>
              <button onClick={sending}>Login</button>
-        </div>
+        </form>
     )
 }
 export default Button;
